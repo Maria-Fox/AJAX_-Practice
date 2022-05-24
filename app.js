@@ -6,8 +6,8 @@ $("#gifForm").on("submit", $("#searchButton"), async function (e) {
 
   let searchInput = $searchInput.val();
 
-  let response = await axios.get("http://api.giphy.com/v1/gifs/search", {
-    //rememeber the "http://" , otherwise it doesn't work
+  let response = await axios.get("https://api.giphy.com/v1/gifs/search", {
+    //rememeber the "https://" , otherwise it doesn't work -S FOR SECURE
     params: {
       api_key: "QJULvdAKGC9bRoIcrEdZM6jWm2Hi2OlO",
       q: searchInput,
