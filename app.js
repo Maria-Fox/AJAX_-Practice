@@ -16,6 +16,7 @@ $("#gifForm").on("submit", $("#searchButton"), async function (e) {
 
   console.log(response.data);
   appendGif(response.data);
+  gifForm.reset();
 });
 
 //append random result to DOM
