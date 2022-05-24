@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="gif.css" />
+  </head>
+
+  <body>
+    <h1>Gify - Fun</h1>
+    <form id="gifForm">
+      <label for="search">
+        I'm looking for a gif about ...
+        <input type="text" id="search" placeholder="dogs" />
+      </label>
+
+      <button id="searchButton">Search</button>
+    </form>
+    <div id="removeDiv">
+      <button id="removeButton">Remove All Gifs</button>
+    </div>
+    <div id="gifDiv"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <!-- axios source above-->
+    <script src="app.js"></script>
+  </body>
+</html>

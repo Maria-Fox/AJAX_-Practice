@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(232, 179, 245, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#gifForm {
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgba(235, 179, 245, 0.5);
+  padding: 5px;
+  margin: 3px;
+}
+
+#searchButton {
+  margin-left: 10px;
+}
+
+#removeDiv {
+  position: absolute;
+  display: inline-block;
+  left: 82%;
+  bottom: 90%;
+  size: 2em;
+  background-color: whitesmoke;
+  color: red;
+  border-radius: 3px;
+}
